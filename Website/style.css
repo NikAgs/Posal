@@ -308,41 +308,39 @@ body {
 .dropdown-menu {
 	margin: 27px 0 0;
 	position: relative;
+	z-index: 0;
 }
 .navbar-2 {
+	position: relative;
+	z-index: 234;
 	font-size: 1.171621em; /* 18.75px / 16px = 1.171875em */
 	letter-spacing: 0;
 	line-height: 0.749837em; /* 14.06px / 18.75px = 0.749867em */
 }
-.wrapper-6 {
-	height: 14px;
+.shape-470 {
+	display: block;
 	margin: 4px 0 0 42px;
 	position: relative;
-	width: 556px;
+	z-index: 233;
+}
+.hover-nav {
+	margin: -5px 0 0 43px;
+	position: relative;
+	width: 555px;
+	z-index: 226;
 }
 .rectangle-26 {
 	height: 5px;
-	left: 50%;
-	position: absolute;
-	top: 9px;
 	width: 555px;
 	background: #10a7d2;
-	margin-left: -277px;
-}
-.shape-470 {
-	left: 50%;
-	position: absolute;
-	top: 0;
-	margin-left: -278px;
 }
 .row-3 {
-	margin: 0 43px;
 	min-height: 96px;
 	padding: 16px 30px 13px 36px;
 	position: relative;
 	background: #fafbfc;
 }
-.wrapper-7 {
+.wrapper-5 {
 	float: left;
 	height: 96px;
 	margin: 0 56px 0 0;
@@ -367,7 +365,7 @@ body {
 	background: #66c0ea;
 	margin-left: -107.5px;
 }
-.col-10 {
+.col-9 {
 	float: left;
 	margin: 18px 0 0;
 	position: relative;
@@ -395,13 +393,12 @@ body {
 	position: relative;
 	width: 1358px;
 }
-.download-2 {
+.inventory {
 	height: 465px;
 	position: relative;
 	width: 1358px;
-	background: #f2f2f2;
 }
-.rectangle-1-holder {
+.learn-more {
 	display: table;
 	left: 50%;
 	margin: 0 0 0 -426px;
@@ -415,6 +412,15 @@ body {
 	font-size: 0.8125em; /* 13px / 16px = 0.8125em */
 	letter-spacing: 0.1em;
 	text-align: center;
+}
+.bg-holder {
+	height: 465px;
+	left: 50%;
+	position: absolute;
+	top: 0;
+	width: 1358px;
+	background: #f2f2f2;
+	margin-left: -679px;
 }
 .rectangle {
 	height: 356px;
@@ -438,7 +444,7 @@ body {
 	position: relative;
 	width: 458px;
 }
-.inventory {
+.inventory-2 {
 	margin: 0 1px;
 	color: #0572b1;
 	font-family: AvenirNext, serif;
@@ -459,7 +465,7 @@ body {
 	letter-spacing: 0.05em;
 	text-align: justify;
 }
-.wrapper-5 {
+.wrapper-4 {
 	float: right;
 	padding: 0 0 71px;
 	position: relative;
@@ -505,7 +511,7 @@ body {
 	position: relative;
 	width: 420px;
 }
-.inventory-2 {
+.inventory-3 {
 	width: 294px;
 	color: #0572b1;
 	font-family: AvenirNext, serif;
@@ -527,7 +533,7 @@ body {
 	letter-spacing: 0.05em;
 	text-align: justify;
 }
-.learn-more {
+.learn-more-2 {
 	display: table;
 	margin: 34px 0 0 4px;
 	min-height: 13px;
@@ -576,7 +582,7 @@ body {
 	letter-spacing: 0.05em;
 	text-align: justify;
 }
-.learn-more-2 {
+.learn-more-3 {
 	display: table;
 	margin: 121px 0 0;
 	min-height: 13px;
@@ -658,7 +664,7 @@ body {
 	letter-spacing: 0;
 	line-height: 1.2em; /* 18px / 15px = 1.2em */
 }
-.rectangle-1-holder-2 {
+.rectangle-1-holder {
 	margin: 102px 0 0;
 	padding: 7px 3px 8px;
 	position: relative;
@@ -706,7 +712,7 @@ body {
 	letter-spacing: 0.05em;
 	text-align: center;
 }
-.col-13 {
+.col-12 {
 	float: right;
 	position: relative;
 	width: 800px;
@@ -1001,7 +1007,7 @@ body {
 	letter-spacing: -0.01em;
 	text-align: left;
 }
-.wrapper-9 {
+.wrapper-7 {
 	height: 343px;
 	margin: 4px 0 0;
 	position: relative;
