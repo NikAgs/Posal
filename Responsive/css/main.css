@@ -52,7 +52,7 @@ a#scrollUp {
   bottom: 0px;
   right: 10px;
   padding: 5px 10px;
-  background: #FE980F;
+  background: #0a98f3;
   color: #FFF;
   -webkit-animation: bounce 2s ease infinite;
   animation: bounce 2s ease infinite;
@@ -116,16 +116,8 @@ a#scrollUp i{
 }
 
 
-.fa-facebook:hover {
-  background: #0083C9;
-}
-
 .fa-twitter:hover  {
 	background:#5BBCEC;
-}
-
-.fa-linkedin:hover  {
-	background:#FF4518;
 }
 
 .fa-dribbble:hover  {
@@ -570,37 +562,30 @@ ul.sub-menu {
 
 
 #slider {
+	padding-top: 20px;
   padding-bottom: 45px;
 }
 
 .carousel-indicators li {
-  background: #C4C4BE;
+  background: white;
 }
 
 .carousel-indicators li.active {
-	  background: #FE980F;
+	  background: #0a98f3;
 }
 
 .item {
-  padding-left: 100px;
-}
-
-
-.pricing {
-  position: absolute;
-  right: 40%;
-  top: 52%;
-}
-
-.girl {
-  margin-left: 0;
 }
 
 .item h1 {
-  color: #B4B1AB;
+  color: #FFFFFF;
   font-family: abel;
-  font-size: 48px;
-  margin-top: 115px;
+  font-size: 50px;
+  position: absolute;
+	text-align: center;
+	width: 50%;
+	margin-top: 22%;
+	margin-left: 35%;
 }
 
 .item h1 span {
@@ -608,12 +593,31 @@ ul.sub-menu {
 }
 
 .item h2 {
-  color: #363432;
-  font-family: 'Roboto', sans-serif;
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 22px;
-  margin-top: 10px;
+  color: #E1DDDD;
+  font-family: abel;
+  font-size: 18px;
+	letter-spacing: 2px;
+	width: 50%;
+	text-align: center;
+  margin-top: 32%;
+	margin-left: 35%;
+  position: absolute;
+}
+
+.item h3 {
+	position: absolute;
+	font-weight: 100;
+	font-size: 34px;
+	letter-spacing: 2px;
+	color: white;
+	width: 30%;
+	height: 8%;
+	text-align: center;
+	padding-top: 3px;
+	background-color: #0a98f3;
+	margin-top: 3%;
+	margin-left: 70%;
+	border-radius: 3px;
 }
 
 .item  p {
@@ -624,30 +628,33 @@ ul.sub-menu {
 }
 
 .get {
-  background: #FE980F;
-  border: 0 none;
-  border-radius: 0;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 1;
   color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  margin-top: 23px;
+  position: absolute;
+	margin-top: 37%;
+	margin-left: 44%;
 }
 
 
 .item button:hover {
-  background: #FE980F;
+  background: #0a98f3;
+	color: #FFFFFF;
 }
 
 .control-carousel {
   position: absolute;
   top: 50%;
   font-size: 60px;
-  color: #C2C2C1;
+  color: #FFFFFF ;
 }
 
 .control-carousel:hover{
-  color: #FE980F ;
+  color: #0a98f3;
 }
 
 .right {

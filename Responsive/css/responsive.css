@@ -42,9 +42,6 @@
 	padding-left: 0;
 }
 
-#slider-carousel .item{
-	padding-left: 30px;
-}
 
 .item h2{
 	font-size: 24px;
@@ -316,11 +313,6 @@ ul.sub-menu{
 
 .contactinfo .nav.nav-pills, .social-icons .nav.navbar-nav{
 	display: inline-block;
-}
-
-.logo{
-	text-align: center;
-	width: 100%;
 }
 
 .shop-menu ul li {
