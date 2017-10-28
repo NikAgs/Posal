@@ -1,0 +1,103 @@
+.hw-col-2 {
+    left: 0;
+    margin-top: 20px;
+    padding: 94px 0 29px;
+    position: relative;
+    width: 100%;
+    /* 1600px / 1600px = 100% */
+    background: url(../images/hw-background.jpg) no-repeat center 0;
+    background-position: center top;
+}
+
+.hw-l-constrained-6 {
+    margin: 0 auto;
+    padding: 0 9px;
+    position: relative;
+    width: 1354px;
+}
+
+.hw-grey-header {
+    position: relative;
+    width: 537px;
+}
+
+.hw-quickfox {
+    position: relative;
+}
+
+.hw-text-15 {
+    font-size: 200%;
+    /* 32px / 16px = 200% */
+    letter-spacing: -0.05em;
+    text-align: center;
+}
+
+.hw-text-16 {
+    left: 19.5px;
+    margin: 13px auto 0;
+    position: relative;
+    width: 490px;
+    font-size: 100%;
+    /* 16px / 16px = 100% */
+    line-height: 131.25%;
+    /* 21px / 16px = 131.25% */
+    font-weight: 200;
+    color: white;
+}
+
+.hw-title_ {
+    margin: 344px 0 0;
+    font-size: 175%;
+    /* 28px / 16px = 175% */
+    letter-spacing: 0.005em;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+
+.hw-text-style-10 {
+    color: #000000;
+    font-size: 187.5%;
+    /* 60px / 32px = 187.5% */
+    font-stretch: condensed;
+    font-weight: bold;
+    line-height: 86.666664%;
+    /* 52px / 60px = 86.666664% */
+}
+
+.hw-text-style-11 {
+    color: #e56b1f;
+    font-size: 187.5%;
+    /* 60px / 32px = 187.5% */
+    font-stretch: condensed;
+    font-weight: bold;
+    line-height: 86.666664%;
+    /* 52px / 60px = 86.666664% */
+}
+
+.hw-text-style-12 {
+    display: block;
+    line-height: 50%;
+    /* 16px / 32px = 50% */
+    margin-bottom: 0;
+}
+
+.hw-text-style-13 {
+    font-size: 75%;
+    /* 24px / 32px = 75% */
+    line-height: 137.5%;
+    /* 33px / 24px = 137.5% */
+    color: white;
+    font-weight: 300;
+}
+
+.hw-text-style-14 {
+    line-height: 33px;
+}
+
+.hw-text-style-15 {
+    color: white;
+    line-height: 103.125%;
+    font-weight: 200;
+    /* 33px / 32px = 103.125% */
+}

@@ -1093,22 +1093,6 @@ sub {
 	font-size: 1.375em; /* 22px / 16px = 1.375em */
 	line-height: 1.909091em; /* 42px / 22px = 1.909091em */
 }
-.social-netwk {
-	height: 134px;
-	margin: 94px 0 0 21px;
-	position: relative;
-	width: 332px;
-}
-.facebook {
-	display: block;
-	left: 50%;
-	padding: 0 0 65px;
-	position: absolute;
-	top: 0;
-	width: 131px;
-	background: url(images/shape_1_copy_2.png) no-repeat 3px bottom;
-	margin-left: -166px;
-}
 .ellipse-1-copy-2-holder {
 	margin: 0 auto;
 	padding: 16px 0 17px;
@@ -1120,20 +1104,7 @@ sub {
 	-moz-border-radius: 50%;
 	border-radius: 50%;
 }
-.facebook-2 {
-	display: block;
-	margin: 0 auto;
-}
-.youtube {
-	display: block;
-	left: 50%;
-	padding: 0 0 65px;
-	position: absolute;
-	top: 0;
-	width: 131px;
-	background: url(images/shape_1_copy_3.png) no-repeat 3px bottom;
-	margin-left: 35px;
-}
+
 .ellipse-1-copy-3-holder {
 	margin: 0 auto;
 	padding: 16px 0;
@@ -1149,16 +1120,7 @@ sub {
 	display: block;
 	margin: 0 auto;
 }
-.linked-in {
-	display: block;
-	left: 50%;
-	padding: 0 0 65px;
-	position: absolute;
-	top: 0;
-	width: 131px;
-	background: url(images/shape_1_copy.png) no-repeat 3px bottom;
-	margin-left: -65px;
-}
+
 .ellipse-1-copy-holder {
 	margin: 0 auto;
 	padding: 17px 0 18px;
