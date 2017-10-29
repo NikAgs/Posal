@@ -1,6 +1,7 @@
 .hw-col-2 {
     left: 0;
     margin-top: 20px;
+    margin-bottom: 20px;
     padding: 94px 0 29px;
     position: relative;
     width: 100%;
@@ -9,32 +10,16 @@
     background-position: center top;
 }
 
-.hw-l-constrained-6 {
-    margin: 0 auto;
-    padding: 0 9px;
-    position: relative;
-    width: 1354px;
-}
-
-.hw-grey-header {
-    position: relative;
-    width: 537px;
-}
-
 .hw-quickfox {
     position: relative;
 }
 
 .hw-text-15 {
     font-size: 200%;
-    /* 32px / 16px = 200% */
-    letter-spacing: -0.05em;
-    text-align: center;
+    margin-left: 10%;
 }
 
 .hw-text-16 {
-    left: 19.5px;
-    margin: 13px auto 0;
     position: relative;
     width: 490px;
     font-size: 100%;
@@ -43,6 +28,7 @@
     /* 21px / 16px = 131.25% */
     font-weight: 200;
     color: white;
+    margin-left: 5.5%;
 }
 
 .hw-title_ {
@@ -99,5 +85,9 @@
     color: white;
     line-height: 103.125%;
     font-weight: 200;
-    /* 33px / 32px = 103.125% */
+    margin-left: -8%;
+}
+
+.hw-text-style-16 {
+    font-size: 20px;
 }
