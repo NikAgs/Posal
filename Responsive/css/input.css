@@ -32,3 +32,10 @@ input[type=search] {
     -moz-border-radius: 5em;
     border-radius: 5em;
 }
+
+.forms ul input[type="text"] {
+    width: 100%;
+    padding: .5em;
+    font-size: .85em;
+    color: #2e2e2e;
+}
