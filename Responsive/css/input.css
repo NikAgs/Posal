@@ -33,6 +33,13 @@ input[type=search] {
     border-radius: 5em;
 }
 
+input[type="large-text"] {
+    padding-bottom: 50px;
+    width: 420px;
+}
+
+
+}
 .forms ul input[type="text"] {
     width: 100%;
     padding: .5em;
