@@ -3,6 +3,10 @@ header {
     flex-direction: column;
 }
 
+ul li {
+    list-style: none;
+}
+
 header .logo {
     position: absolute;
     margin: 0px 0 0 100px;
