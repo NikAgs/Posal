@@ -47,6 +47,10 @@ header .bottom {
     order: 2;
 }
 
+.dropdown-menu {
+    font-size: 50px;
+}
+
 #myFooter {
     color: white;
     padding-top: 30px;

@@ -43,6 +43,12 @@ header .bottom {
     order: 2;
 }
 
+.dropdown-menu {
+    font-size: 16px;
+    min-width: 0;
+    padding: 7px 15px 7px 15px;
+}
+
 #myFooter {
     color: white;
     padding-top: 30px;

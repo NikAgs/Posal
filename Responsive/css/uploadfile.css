@@ -1,9 +1,7 @@
 .file-upload {
-    display: block;
     text-align: center;
     font-size: 13px;
     width: 300px;
-    margin-left: 40%;
 }
 
 .file-upload .file-select {

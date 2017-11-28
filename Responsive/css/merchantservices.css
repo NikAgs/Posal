@@ -1,7 +1,6 @@
 .order-form {
     width: 100%;
     position: relative;
-    height: 1100px;
 }
 
 h1 {
@@ -15,6 +14,7 @@ h1 {
     text-align: center;
     font-size: 13px;
     font-weight: 300;
+    width: 100%;
 }
 
 .terms-conditions a:hover {
@@ -30,7 +30,7 @@ h1 {
     text-align: center;
     font-weight: 300;
     font-size: 20px;
-    float: left;
+    margin-top: 0;
 }
 
 .annual-revenue {
@@ -39,44 +39,45 @@ h1 {
     font-weight: 300;
     font-size: 20px;
     float: left;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .merchant-entries {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
 }
 
 .merchant-entries .left {
-    float: left;
     width: 50%;
     text-align: right;
-    padding-right: 2.5%;
-    margin-bottom: 20px;
+    padding-right: 20px;
+    margin-bottom: 25px;
 }
 
 .merchant-entries .right {
-    float: right;
     width: 50%;
-    text-align: left;
-    padding-left: 2.5%;
+    padding-left: 20px;
     margin-bottom: 20px;
 }
 
 .merchant-entries .yes-no {
-    margin-left: 35%;
-    float: left;
     width: 100%;
-    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.merchant-entries .yes-no p {
+    margin-right: 20px;
+    margin-left: 20px;
     font-weight: 300;
 }
 
 .merchant-entries .yes-no dl {
-    float: left;
-}
-
-.merchant-entries .yes-no p {
-    width: 250px;
-    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .merchant-entries .business-type {
@@ -106,6 +107,7 @@ h1 {
     border-radius: 11px;
     border: none;
     margin-left: 45%;
+    margin-bottom: 35px;
 }
 
 input {

@@ -7,10 +7,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Demo Form</title>
-    <link href="css/Footer-with-button-logo.css" rel="stylesheet">
     <link href="css/autostyle.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/Footer-with-button-logo.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
@@ -18,6 +18,7 @@
     <link href="css/input.css" rel="stylesheet">
     <link href="css/dropdown.css" rel="stylesheet">
     <link href="css/demoform.css" rel="stylesheet">
+    <link href="css/banner.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/ico/favicon.ico">
 </head>
 <!--/head-->
@@ -28,14 +29,18 @@
         <ul class="top">
             <li>1 (877) 320-6537</li>
             <li><a href="mailto:support@posal.com"><i class="fa fa-comments"></i> Contact</a></li>
-            <li><a href=""><i class="fa fa-group"></i> Support</a></li>
-            <li><a href=""><i class="fa fa-lock"></i> Login</a></li>
         </ul>
         <ul class="bottom">
             <li><a href="" id="special">Retail</a></li>
             <li><a href="liquor.html">Liquor</a></li>
             <li><a href="">Gift Card</a></li>
-            <li><a href="Hardware.html">Resources</a></li>
+            <li class="nav-item dropdown" id="menu-dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources <i class="fa fa-angle-down"></i></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="Hardware.html">Hardware</a>
+                    <a class="dropdown-item" href="ScreenPage.html">Screens</a>
+                </div>
+            </li>
             <li><a href="partners.html">Partners</a></li>
             <li><a href="careers.html">Company</a></li>
             <li><a href="DemoForm.html">Free Trial</a></li>
@@ -52,8 +57,7 @@
             <li class="left"><input type="text" placeholder="Your Company" /></li>
             <li class="message"><input type="large-text" placeholder="Message (optional)" /></li>
         </ul>
-        <button class="submit-demo">Submit</button>
-        <a href="MerchantServices.html"><button class="quote">Would you like a quote?</button></a>
+        <button id="submit-demo">Submit</button>
     </div>
     <footer id="myFooter">
         <div class="container">
@@ -101,7 +105,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/dropdown.js"></script>
-
+    <script src="js/banner.js"></script>
+    <script src="js/menudropdown.js"></script>
 </body>
 
 </html>
