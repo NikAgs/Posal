@@ -18,16 +18,8 @@ dropdowns.find("dd ul li a").click(function () {
     // Update selected value
     leSpan.html($(this).html());
 
-    // If back to default, remove selected class else addclass on right element
-    if ($(this).hasClass('default')) {
-        leSpan.removeClass('selected')
-    } else {
-        leSpan.addClass('selected');
-        $(this).addClass('selected');
-    }
-
     // Close dropdown
-    $(this).parents("ul").hide();
+    $(".dropdown dd ul").hide();
 });
 
 // Close all dropdown onclick on another element
