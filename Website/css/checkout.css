@@ -1,0 +1,262 @@
+@charset "UTF-8";
+.group:before,
+.group:after {
+    content: " ";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+    /* ie 6/7 */
+}
+
+.ck-text-3 {
+    width: 100%;
+    margin-top: 30px;
+    color: #df0303;
+    font-size: 150%;
+    /* 24px / 16px = 150% */
+    letter-spacing: -0.05em;
+    text-align: center;
+}
+
+.ck-menu {
+    margin: 60px 10% 60px 10%;
+    position: relative;
+}
+
+.ck-left {
+    float: left;
+    margin: 9px 0 0;
+    position: relative;
+    width: 347px;
+}
+
+.ck-user {
+    margin: 0 auto;
+    position: relative;
+    width: 345px;
+}
+
+.ck-user-icon {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.ck-text-4 {
+    margin: 3px 0 0;
+    color: #605f5f;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 81.25%;
+    /* 13px / 16px = 81.25% */
+    letter-spacing: 0.1em;
+}
+
+.ck-hotline {
+    margin: 28px 0 0;
+    position: relative;
+}
+
+.ck-phone-icon {
+    float: left;
+    margin: 2px 9px 0 0;
+}
+
+.ck-text-5 {
+    color: #605f5f;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 112.5%;
+    /* 18px / 16px = 112.5% */
+    letter-spacing: 0.1em;
+}
+
+.ck-right {
+    float: right;
+    position: relative;
+    width: 286px;
+}
+
+.ck-cart {
+    left: 30.5px;
+    margin: 0 auto;
+    position: relative;
+    width: 225px;
+}
+
+.ck-wrapper-13 {
+    float: left;
+    height: 26px;
+    margin: 0 9px 0 0;
+    position: relative;
+    width: 26px;
+}
+
+.ck-cart-icon {
+    left: 50%;
+    position: absolute;
+    top: 5px;
+    margin-left: -3px;
+}
+
+.ck-ellipse-holder {
+    left: 50%;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    -webkit-border-radius: 8.63px;
+    -moz-border-radius: 8.63px;
+    border-radius: 8.63px;
+    background: #66CC75;
+    margin-left: -13px;
+}
+
+.ck-text-6 {
+    color: #ffffff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 75%;
+    /* 12px / 16px = 75% */
+    letter-spacing: 0;
+    margin-left: 4px;
+}
+
+.ck-text-7 {
+    float: left;
+    margin: 10px 0 0;
+    width: 190px;
+    color: #323232;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 75%;
+    /* 12px / 16px = 75% */
+    letter-spacing: 0.1em;
+}
+
+.col-4 {
+    float: left;
+    position: relative;
+    width: 453px;
+    margin-top: -170px;
+}
+
+.text-32 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 87.5%;
+    /* 14px / 16px = 87.5% */
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    line-height: 121.42857%;
+    /* 17px / 14px = 121.42857% */
+}
+
+.norton-secured-logo {
+    display: block;
+    position: relative;
+    margin-top: 50px;
+}
+
+.colorde0437 {
+    color: #de0437;
+}
+
+.text-32 a:hover {
+    color: #de0437;
+    text-decoration: underline;
+}
+
+.our-support {
+    float: right;
+    width: 233px;
+    margin-top: -200px;
+    margin-right: -70%;
+    font-weight: 300;
+}
+
+.text-30 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    /* 16px / 16px = 100% */
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+
+.divider-6 {
+    height: 1px;
+    margin: 13px 0 0;
+    width: 232px;
+    background: #d6d6d6;
+}
+
+.ck-text-31 {
+    margin: 19px 0 0;
+    width: 170px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 87.5%;
+    /* 14px / 16px = 87.5% */
+    letter-spacing: 0.1em;
+    line-height: 185.71428%;
+    /* 26px / 14px = 185.71428% */
+}
+
+.credit-cards {
+    margin-top: -115px;
+    margin-left: 207px;
+    width: 250px;
+}
+
+.credit-cards .leasing-rates {
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+.credit-cards .leasing-impact {
+    margin-top: 15px;
+    margin-left: -5px;
+}
+
+.ck-shipping {
+    display: block;
+    margin: 82px 0 0;
+    position: relative;
+}
+
+.flags-shipping {
+    margin-left: 500px;
+    margin-top: -200px;
+    width: 200px;
+}
+
+.ck-us-flag {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.caanda {
+    float: left;
+}
+
+.text-style-2 {
+    font-size: 72.22222%;
+    /* 13px / 18px = 72.22222% */
+}
+
+.text-style-3 {
+    color: #2ba08b;
+    font-family: MyriadPro, serif;
+    font-size: 125%;
+    /* 15px / 12px = 125% */
+}
+
+.text-style-4 {
+    color: #2ba08b;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 125%;
+    /* 15px / 12px = 125% */
+    font-weight: bold;
+}
+
+.text-style-5 {
+    font-size: 20px;
+}

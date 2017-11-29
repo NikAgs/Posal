@@ -1,0 +1,97 @@
+.main-image {
+    background: url("../images/Layer%20611.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1600px;
+    max-width: 100%;
+    height: 757px;
+}
+
+.main-image p {
+    color: white;
+    font-weight: 200;
+    font-size: 30px;
+    width: 300px;
+    margin: 575px 0 0 7%;
+    position: absolute;
+}
+
+.giftcard-content {
+    height: 1060px;
+}
+
+.giftcard-content h1 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.giftcard-content #why {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.picture-texts {
+    margin-top: 75px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.picture-text {
+    width: 23%;
+    text-align: center;
+}
+
+.picture-text i {
+    font-size: 75px;
+    color: #424242;
+}
+
+.picture-text p {
+    margin-top: 25px;
+    font-weight: 200;
+    font-size: 14px;
+    padding: 0 60px 0 60px;
+}
+
+.giftcard-content .why-program {
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.giftcard-content .why-program p {
+    width: 275px;
+    font-weight: 300;
+}
+
+.giftcard-content .giftcard {
+    margin: 160px 0 0 35%;
+    position: absolute;
+}
+
+.giftcard-content .compare-pls {
+    position: absolute;
+    margin: 105px 0 0 65%;
+    text-align: center;
+}
+
+.giftcard-content .compare-pls p {
+    font-weight: 300;
+}
+
+.giftcard-content .giftcard-table {
+    position: absolute;
+    margin: 225px 0 0 67.5%;
+}
+
+.giftcard-content h2 {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 200;
+    width: 250px;
+    text-align: center;
+    margin: 705px 0 0 37.5%;
+}
