@@ -15,9 +15,9 @@
 
 .main-image .pos-desktop {
     position: absolute;
-    width: 26%;
+    width: 24%;
     left: 11%;
-    bottom: 9%;
+    bottom: 8%;
     z-index: 2;
 }
 
@@ -28,7 +28,7 @@
     color: white;
     position: absolute;
     left: 38%;
-    bottom: 17%;
+    bottom: 36%;
     z-index: 2;
 }
 
@@ -161,7 +161,7 @@ p#feature-titles {
 
 .picture-text i {
     font-size: 75px;
-    color: #026ac3;
+    color: #5d6161;
 }
 
 .picture-text h1 {
@@ -172,7 +172,8 @@ p#feature-titles {
 
 .picture-text p {
     font-weight: 200;
-    font-size: 14px;
+    font-size: 13px;
+    padding: 0 10px 0 10px;
 }
 
 .hardware-software {
@@ -242,6 +243,7 @@ a {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 1375px;
 }
 
 .compare-services {
@@ -604,6 +606,14 @@ a {
     /*drop shadow*/
 }
 
+.light {
+    width: 104.5%;
+    margin-left: -2.1%;
+    position: absolute;
+    margin-top: 25px;
+    max-height: 600px;
+}
+
 .text-14 {
     margin: 0 auto;
     width: 94.77911%;
@@ -797,7 +807,7 @@ a {
 .finance {
     position: relative;
     z-index: 0;
-    margin-top: 0;
+    margin-top: 175px;
     margin-bottom: 0;
     padding-top: 0;
     padding-bottom: 0;
@@ -809,6 +819,7 @@ a {
     line-height: 116.666664%;
     /* 14px / 12px = 116.666664% */
     text-align: center;
+    width: 55%;
 }
 
 .merchant-partners {
@@ -1199,6 +1210,7 @@ a {
 
 .text-style-12 {
     line-height: 377.77777%;
+    font-weight: 500;
     /* 68px / 18px = 377.77777% */
 }
 
@@ -1262,9 +1274,9 @@ a {
 
 .text-style-29 {
     color: #090909;
-    font-size: 275%;
+    font-size: 30px;
     /* 44px / 16px = 275% */
-    font-weight: 600;
+    font-weight: 500;
     line-height: 154.54546%;
     /* 68px / 44px = 154.54546% */
 }
