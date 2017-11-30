@@ -1,15 +1,15 @@
 @charset "UTF-8";
 .main-image {
     background: url(../images/layer_604.png);
-    margin: 2% 0 7% 0;
+    margin: 0 0 6% 0;
     position: relative;
 }
 
 .main-image .liquor-transaction {
     width: 100%;
     height: auto;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     position: relative;
 }
 

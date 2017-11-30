@@ -1183,8 +1183,27 @@ sub {
     letter-spacing: 1px;
     font-weight: 300;
     background-color: #0571c6;
-    padding: 2px 20px 2px 20px;
+    padding: 2px 40px 2px 20px;
     margin: -13% 0 0 57%;
+}
+
+.order-now {
+    padding-top: 0.7%;
+    position: absolute;
+    width: 15%;
+    -webkit-border-radius: 27.67px/27.5px;
+    -moz-border-radius: 27.67px/27.5px;
+    border-radius: 27.67px/27.5px;
+    background: #16d428;
+    color: #ffffff;
+    font-size: 2vw;
+    /* 26.51px / 16px = 1.656875em */
+    text-align: center;
+    max-width: 100%;
+    font-weight: 300;
+    margin-left: -32.3%;
+    margin-top: 21.5%;
+    height: 11%;
 }
 
 .text-21 {

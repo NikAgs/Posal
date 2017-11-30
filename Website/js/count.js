@@ -1,28 +1,16 @@
-$.fn.isInViewport = function () {
-    var elementTop = $(this).offset().top;
-    var elementBottom = elementTop + $(this).outerHeight();
+(function () {
+    var timelineTimer = new TimelineMax({
+        repeat: -1
+    });
+    var counter = 0;
+    var $elementTimer = $('.count');
 
-    var viewportTop = $(window).scrollTop();
-    var viewportBottom = viewportTop + $(window).height();
+    timelineTimer.to($elementTimer, 1, {
+        onUpdate: handlerOnUpdate
+    });
 
-    return elementBottom > viewportTop && elementTop < viewportBottom;
-};
-
-
-var animated = false;
-$(window).on('resize scroll', function () {
-    if ($('.count').isInViewport() && animated == false) {
-        animated = true;
-        $('.count').each(function () {
-            $(this).prop('Counter', 0).animate({
-                Counter: $(this).text()
-            }, {
-                duration: 3000,
-                easing: 'swing',
-                step: function (now) {
-                    $(this).text(Math.ceil(now));
-                }
-            });
-        });
+    function handlerOnUpdate() {
+        counter += 0.4;
+        $elementTimer.text(Math.ceil(counter));
     }
-});
+})();
