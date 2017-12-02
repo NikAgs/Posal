@@ -1449,8 +1449,9 @@ sub {
 }
 
 .text-style-13 {
-    line-height: 1.428571em;
     /* 20px / 14px = 1.428571em */
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 .text-style-19 {
@@ -1484,8 +1485,7 @@ sub {
 }
 
 .text-style-11 {
-    line-height: 1.285714em;
-    /* 18px / 14px = 1.285714em */
+    font-size: 14px;
 }
 
 .text-style-5 {

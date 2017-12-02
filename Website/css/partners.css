@@ -64,10 +64,10 @@
 
 .text-23>* {
     color: #060000;
-    font-size: 87.5%;
+    font-size: 15px;
     /* 14px / 16px = 87.5% */
-    font-weight: 100;
-    letter-spacing: -0.01em;
+    font-weight: 300;
+    letter-spacing: 1px;
     line-height: 121.42857%;
     /* 17px / 14px = 121.42857% */
 }
@@ -89,13 +89,13 @@
 
 .text-24 {
     margin: 55px auto 0;
-    width: 99.35897%;
+    width: 100%;
     /* 465px / 468px = 99.35897% */
     color: #060000;
-    font-size: 87.5%;
+    font-size: 15px;
     /* 14px / 16px = 87.5% */
-    font-weight: 100;
-    letter-spacing: -0.01em;
+    font-weight: 300;
+    letter-spacing: 1px;
     line-height: 121.42857%;
     /* 17px / 14px = 121.42857% */
 }
@@ -132,10 +132,10 @@
     width: 45.248474%;
     /* 519px / 1147px = 45.248474% */
     color: #060000;
-    font-size: 87.5%;
+    font-size: 16px;
     /* 14px / 16px = 87.5% */
-    font-weight: 100;
-    letter-spacing: -0.01em;
+    font-weight: 300;
+    letter-spacing: 1px;
     line-height: 121.42857%;
     /* 17px / 14px = 121.42857% */
 }

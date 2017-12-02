@@ -1,16 +1,11 @@
-(function () {
-    var timelineTimer = new TimelineMax({
-        repeat: -1
+$('.count').each(function () {
+    $(this).prop('Counter', 0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 30000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
     });
-    var counter = 0;
-    var $elementTimer = $('.count');
-
-    timelineTimer.to($elementTimer, 1, {
-        onUpdate: handlerOnUpdate
-    });
-
-    function handlerOnUpdate() {
-        counter += 0.4;
-        $elementTimer.text(Math.ceil(counter));
-    }
-})();
+});
